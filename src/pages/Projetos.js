@@ -1,7 +1,7 @@
 function Projetos() {
     return (
         <>
-            <span>Teste</span>
+            <span>Projeto</span>
         </>
     )
 }

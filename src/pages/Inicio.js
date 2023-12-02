@@ -1,7 +1,7 @@
 function Inicio() {
     return (
         <>
-            <span>Teste</span>
+            <span>Inicio</span>
         </>
     )
 }

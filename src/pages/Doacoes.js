@@ -1,7 +1,7 @@
 function Doacoes() {
     return (
         <>
-            <span>Teste</span>
+            <span>Doações</span>
         </>
     )
 }

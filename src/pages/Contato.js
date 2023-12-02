@@ -1,7 +1,7 @@
 function Contato() {
     return (
         <>
-            <span>Teste</span>
+            <span>Contatos</span>
         </>
     )
 }
