@@ -20,8 +20,8 @@ function Menu() {
 
     return (
         <div>
-            <Navbar color="dark" dark expand="md" className='bg-black py-4'>
-                <Link to="/" className='navbar-brand me-5'><SiWorldhealthorganization style={{ transform: 'scale(1.5)' }} /> RefugiHelp</Link>
+            <Navbar color="dark" dark expand="md" className='bg-black py-4 mb-3'>
+                <Link to="/" className='navbar-brand me-5'>RefugiHelp <SiWorldhealthorganization style={{ transform: 'scale(1.8)' }} className='ms-2' /> </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto gap-2" navbar>

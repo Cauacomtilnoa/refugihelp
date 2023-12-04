@@ -24,15 +24,15 @@ function App() {
         </Row>
         <Row>
           {/* Conteúdo que vai aparecer para o usuário baseado no que ele escolher no menu */}
-          <Col>
-            <Routes>
-              <Route exact path="/" element={<Inicio />} />
-              <Route path='/projetos' element={<Projetos />} />
-              <Route path="/voluntarios" element={<Voluntarios />} />
-              <Route path="/doacoes" element={<Doacoes />} />
-              <Route path="/contato" element={<Contato />} />
-            </Routes>
-          </Col>
+
+          <Routes>
+            <Route exact path="/" element={<Inicio />} />
+            <Route path='/projetos' element={<Projetos />} />
+            <Route path="/voluntarios" element={<Voluntarios />} />
+            <Route path="/doacoes" element={<Doacoes />} />
+            <Route path="/contato" element={<Contato />} />
+          </Routes>
+
         </Row>
         <Row>
           <Col className='p-0'>
