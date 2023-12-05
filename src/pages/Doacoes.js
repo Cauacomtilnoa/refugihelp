@@ -11,22 +11,21 @@ function Doacoes() {
                 </Col>
             </Row>
             <Row>
-                <Col xs="1"></Col>
+
                 <Col xs="2">
                     <ItemDoacao img="https://picsum.photos/100/200" titulo="Doe 30 reais" conteudo="Ajude realizando uma doação" />
                 </Col>
-                <Col xs="2"></Col>
+
                 <Col xs="2">
                     <ItemDoacao img="https://picsum.photos/100/200" titulo="Doe 45 reais" conteudo="Ajude realizando uma doação" />
                 </Col>
-                <Col xs="2"></Col>
+
                 <Col xs="2">
                     <ItemDoacao img="https://picsum.photos/100/200" titulo="Doe 80 reais" conteudo="Ajude realizando uma doação" />
                 </Col>
                 <Col xs="1"></Col>
-                <Col xs="3" className="mx-auto mt-5">
-                    <ItemDoacao img="https://picsum.photos/100/200" titulo="Doe outro valor" conteudo="Ajude realizando uma doação" />
-                </Col>
+
+
             </Row>
         </div>
     )

@@ -12,6 +12,7 @@ function Inicio() {
     };
     return (
         <div>
+            {/* Menuzin cinza de doação */}
             <Row className='bg-dark py-4 mb-5 text-white' style={{ marginTop: "-16px", boxShadow: '0px 0px 7px black' }}>
                 <Col xs="7" className='text-center'>
                     <p className='p-0 m-0 '>Ajude-nos a Fazer a Diferença! Faça sua doação hoje.
@@ -21,6 +22,8 @@ function Inicio() {
                 <Col xs="5" className='text-center align-self-center text-md-start'><Link to="/doacoes" className='text-decoration-none text-white'><span className='border p-2 px-3'>Doar</span></Link></Col>
 
             </Row>
+
+            {/* Conteudo Inicial */}
             <Row style={{ marginBottom: '270px', marginTop: '100px' }} >
                 <Col md="6" lg="5" className='d-flex justify-content-center'>
                     <img src={refugiados} className='img-fluid rounded-2 img-responsive' style={{ boxShadow: '0px 0px 3px black' }} />
@@ -41,6 +44,8 @@ function Inicio() {
                     </Row >
                 </Col >
             </Row>
+
+            {/* Quem Somos */}
             <Row className='mt-5'>
                 <Col md="11 ms-md-5">
                     <Row>
