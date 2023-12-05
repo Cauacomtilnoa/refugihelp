@@ -11,7 +11,7 @@ function Voluntarios() {
     };
     return (
         <div className='p-0 m-0'>
-            <div className='img-fluid' style={{ backgroundImage: `url(${voluntario})`, height: '65vh', backgroundSize: 'cover', backgroundPosition: 'top', marginTop: '-16px' }}>
+            <div className='img-fluid' style={{ backgroundImage: `url(${voluntario})`, height: '65vh', backgroundSize: 'cover', backgroundPosition: 'top', marginTop: '-16px', backgroundAttachment: 'fixed' }}>
                 <Row className='p-0 m-0 h-100'>
                     <Col className='text-white justify-content-center d-flex flex-column text-shadow'>
                         <h1 className='display-4' style={{ textShadow: '2px 2px 5px black' }}>Seja um Voluntário na RefugiHelp</h1>
@@ -32,12 +32,12 @@ function Voluntarios() {
                         <p className='lead fs-5'>Você deseja fazer a diferença na vida dos refugiados e contribuir para um mundo mais solidário? Tornar-se voluntário na RefugiHelp é simples e significativo. Basta preencher nosso formulário de voluntariado e iniciar sua jornada de apoio e impacto positivo.</p>
                     </span>
                 </Col>
-                <Col md="6" className='d-flex justify-content-center'>
-                    <img src={maozinha} alt="" className='img-fluid'/>
+                <Col md="6" className='d-flex justify-content-center mt-2'>
+                    <img src={maozinha} alt="" className='img-fluid' />
                 </Col>
             </Row>
             <div className='p-0 m-0'>
-                
+
             </div>
         </div>
     )

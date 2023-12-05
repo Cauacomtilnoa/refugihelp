@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import ItemProjetos from '../components/ItemProjetos';
 import ItemProjetosInvertido from '../components/itemProjetosInvertido'
+import palestina from '../images/palestina.jpg'
+import ucrania from '../images/ucrania.jpg'
 
 function Projetos() {
     return (
@@ -14,9 +16,9 @@ function Projetos() {
             </Row>
             <Row className='justify-content-center p-0 m-0'>
                 <Col xs="8" className='p-0 m-0'>
-                    <ItemProjetos img="https://picsum.photos/400/300" titulo="Ajuda ao povo Palestino" subtitulo="Você também pode colaborar" desc="uiadasdasd"/>
-                    <ItemProjetosInvertido img="https://picsum.photos/400/300" titulo="Ajuda ao povo Palestino" subtitulo="Você também pode colaborar" desc="uiadasdasd"/>
-                    
+                    <ItemProjetos img={palestina} titulo="Construindo Esperança para os Refugiados da Palestina" desc="Adentremos juntos a seção de nossa ONG dedicada à ajuda aos refugiados da Palestina. " />
+                    <ItemProjetosInvertido img={ucrania} titulo="Iniciativas Transformadoras: Projetos de Apoio aos Refugiados Ucranianos" desc="Neste projeto temos iniciativas destinadas a criar impacto positivo e duradouro para os refugiados da Ucrânia." />
+
                 </Col>
             </Row>
         </div>
