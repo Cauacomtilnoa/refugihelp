@@ -2,10 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import fundo from '../images/fundoContato.jpg';
 import ItemFormulario from '../components/ItemFormulario';
+import 'animate.css';
 
 function Contato() {
     return (
-        <div className='p-0 m-0'>
+        <div className='animate__animated animate__fadeIn p-0 m-0'>
             <div className='p-0' style={{ backgroundImage: `url(${fundo})`, height: 'auto', backgroundSize: 'cover', backgroundPosition: 'top', marginTop: '-16px', marginBottom: '-48px' }}>
                 <Row className='m-0 pb-5 justify-content-center' >
                     <Col xs="10" className='border border-secondary bg-dark text-white mt-5' style={{ height: 'fit-content', opacity: '95%' }}>

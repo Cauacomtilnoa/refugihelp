@@ -9,7 +9,7 @@ function ItemDoacao(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.titulo}</h5>
                     <p className="card-text">{props.conteudo}</p>
-                    <a href="#" className="btn btn-primary">Doar</a>
+                    <button type="button" class="btn btn-outline-dark">Doar</button>
                 </div>
             </div>
         </div>

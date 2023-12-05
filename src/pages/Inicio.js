@@ -3,6 +3,7 @@ import refugiados2 from '../images/refugiados2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import 'animate.css';
 
 function Inicio() {
     const paragrafoStyle = {
@@ -11,7 +12,7 @@ function Inicio() {
         // Adicione outros estilos conforme necessário
     };
     return (
-        <div>
+        <div className='animate__animated animate__fadeIn'>
             {/* Menuzin cinza de doação */}
             <Row className='bg-dark py-4 mb-5 text-white' style={{ marginTop: "-16px", boxShadow: '0px 0px 7px black' }}>
                 <Col xs="7" className='text-center'>
@@ -24,7 +25,7 @@ function Inicio() {
             </Row>
 
             {/* Conteudo Inicial */}
-            <Row style={{ marginBottom: '270px', marginTop: '100px' }} >
+            <Row style={{ marginBottom: '270px', marginTop: '100px' }}>
                 <Col md="6" lg="5" className='d-flex justify-content-center'>
                     <img src={refugiados} className='img-fluid rounded-2 img-responsive' style={{ boxShadow: '0px 0px 3px black' }} />
                 </Col>

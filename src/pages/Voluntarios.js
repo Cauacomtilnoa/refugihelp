@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import voluntario from '../images/aaa.jpg'
 import maozinha from '../images/voluntariosoqe.svg'
+import 'animate.css';
 
 function Voluntarios() {
     const paragrafoStyle = {
@@ -10,7 +11,7 @@ function Voluntarios() {
         // Adicione outros estilos conforme necessário
     };
     return (
-        <div className='p-0 m-0'>
+        <div className='animate__animated animate__fadeIn p-0 m-0'>
             <div className='img-fluid' style={{ backgroundImage: `url(${voluntario})`, height: '65vh', backgroundSize: 'cover', backgroundPosition: 'top', marginTop: '-16px', backgroundAttachment: 'fixed' }}>
                 <Row className='p-0 m-0 h-100'>
                     <Col className='text-white justify-content-center d-flex flex-column text-shadow'>

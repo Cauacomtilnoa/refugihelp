@@ -1,13 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import ItemProjetos from '../components/ItemProjetos';
-import ItemProjetosInvertido from '../components/itemProjetosInvertido'
-import palestina from '../images/palestina.jpg'
-import ucrania from '../images/ucrania.jpg'
+import ItemProjetosInvertido from '../components/itemProjetosInvertido';
+import palestina from '../images/palestina.jpg';
+import ucrania from '../images/ucrania.jpg';
+import 'animate.css';
 
 function Projetos() {
     return (
-        <div>
+        <div className='animate__animated animate__fadeIn'>
             <Row className='mt-5'>
                 <Col className='p-0 m-0 text-center mt-5 mb-5'>
                     <h2 className='h1'>Nossos principais projetos</h2>
